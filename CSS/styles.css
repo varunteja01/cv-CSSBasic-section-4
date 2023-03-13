@@ -1,0 +1,42 @@
+/*****************TAG SELECTORS****************/
+body
+{
+    background-color: #EAF6F6;
+}
+
+hr
+{
+    border-style: dotted none none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+
+}
+
+h1
+{
+    color: #66BFBF;
+
+}
+
+/***********************CLASS SELECTORS***********************/
+/*Here for both h3 and h4 tag we applied same style together which is possible using class selectors*/
+.demoname2
+{
+    color: crimson;
+
+}
+
+/* all the id selectors must have different names. you can apply the style to only one particular
+element using one id selector name
+
+   class selectors you can have same names for different tags by which you can apply same styles
+   to all those tages if necessary(note: one tag can be<p> other can be<h1> etc.*/
+
+/**********************ID SELECTORS *************************/
+
+#demoname1:hover
+{
+    color: crimson;
+
+}

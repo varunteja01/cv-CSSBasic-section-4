@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+</head>
+<body>
+ 
+    <!--Demonstration for class selectors in <h3> and <h4> tags-->
+
+    <h3 class="demoname2">CONTACT DETAILS</h3>
+    <p>Adress   : H.No 1-5-802, New Maruthi Nagar, kotapet , HYD-500060 <br>
+       phone no : 9908211424 <br>
+       Email id : naniasde32@gmail.Com <br>
+       LinkedIn : <a href="https://www.linkedin.com/in/varun-teja-komirishetti-07874422a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BMQsYUj3pR961nk9zIkmkdA%3D%3D">My profile</a>
+    </p>
+    <h4 class="demoname2">FORM</h4>
+    <!--
+        'action' attribute in form tells where the page should be directed
+        after pressing submit button. Here it is directing to open Mail 
+        app where the person typing info can send us
+
+        'enctype' this attrivute does not mess up the form we filled and sends
+        it to the user without an weird characters
+    -->
+    <form action="mailto:naniasde32@gmail.com" method="post" enctype="text/plain" >
+        <label for="">Your Name : </label>
+        <input type="text" name="your name is: "> 
+
+        <label for="">phone no :</label>
+        <input type="tel" name="your phno is: " >
+        
+        <table>
+            <tr>
+                <td>
+                    <label for="">Male</label>
+                    <input type="checkbox" name="your gender is: ">
+                </td>
+                <td>
+                    <label for="">Female</label>
+                    <input type="checkbox" name="your gender is: ">
+                </td>
+                <td>
+                    <label for="">Others</label>
+                    <input type="checkbox" name="your gender is: ">
+                </td>
+            </tr>
+        </table>
+
+        <label for="">DOB :</label>
+        <input type="datetime-local" name="DOB :"><br>
+
+        <label for="">Email :</label>
+        <input type="email" name="your Email :"> <br>
+
+        <label for="">Your Message :</label><br>
+        <textarea name="your Message :" id="" cols="30" rows="10"></textarea>
+        
+        <table>
+            <tr>
+                <td>
+                    <input type="reset">
+                </td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+
+    <!--Demonstation of ID SELECTOR and HOVERING "look into styles.css"-->
+
+    <center><p id="demoname1" style="font-size: 60px;" >THANK YOU</p></center>
+    
+</body>
+</html>
